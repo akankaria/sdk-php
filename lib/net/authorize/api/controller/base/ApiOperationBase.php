@@ -12,7 +12,7 @@ use \net\authorize\util\Helpers;
 use \net\authorize\util\LogFactory as LogFactory;
 
 
-abstract class ApiOperationBase implementes IApiOperation
+abstract class ApiOperationBase implements IApiOperation
 {
     /**
      * @var \net\authorize\api\contract\v1\AnetApiRequestType
